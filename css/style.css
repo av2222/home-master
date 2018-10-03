@@ -6,6 +6,32 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HelveticaNeueCyrLight';
+    src: url('../fonts/helveticalight-webfont.woff2') format('woff2'),
+         url('../fonts/helveticalight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrBold';
+    src: url('../fonts/helveticabold-webfont.woff2') format('woff2'),
+         url('../fonts/helveticabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyrMedium';
+    src: url('../fonts/helveticamedium-webfont.woff2') format('woff2'),
+         url('../fonts/helveticamedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
 	color:white;
 	margin:0;
@@ -348,7 +374,8 @@ body{
 .trust_block{
 	vertical-align:top;
 	font-size:16px;
-	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-family:"HelveticaNeueCyrLight", "Arial", sans-serif;
+	font-weight:500;
 	position:relative;
 	display:inline-block;
 	margin-top:40px;
@@ -514,7 +541,7 @@ body{
 	margin:15px;
 	border-radius:6px;
 	font-size:16px;
-	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-family:"HelveticaNeueCyrLight", "Arial", sans-serif;
 	color:#2f638d;
 	background-color:#f2f3fc;
 } 
@@ -554,7 +581,7 @@ body{
 
 .rewiev_block_1{
 	font-size:16px;
-	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-family:"HelveticaNeueCyrLight", "Arial", sans-serif;
 	color:#2f638d;
 	background-color:#f2f3fc;
 	position:absolute;
@@ -583,10 +610,12 @@ body{
 }
 
 .arrow_left{
+	top: 140px;
 	left:50px;
 }
 
 .arrow_right{
+    top: 140px;
 	right:50px;
 }
 
@@ -630,7 +659,7 @@ body{
 
 .rewiev_block_2{
 	font-size:16px;
-	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-family:"HelveticaNeueCyrLight", "Arial", sans-serif;
 	color:#2f638d;
 	background-color:#f2f3fc;
 	position:absolute;
@@ -652,6 +681,7 @@ body{
 	width:260px;
 	margin-top:45px;
 	margin-left:150px;
+	margin-bottom: 20px;
 	font-size:18px;
 }
 
@@ -669,7 +699,7 @@ body{
 
 .email, .tel{
 	font-size:18px;
-	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-family:"HelveticaNeueCyrBold", "Arial", sans-serif;
 	color:#2f638d;
 	line-height:2;
 	text-decoration: none;
@@ -690,6 +720,6 @@ body{
 	background-image: url(../img/Footer.jpg);	
 	text-align:center;
 	font-size:24px;
-	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-family:"HelveticaNeueCyrMedium", "Arial", sans-serif;
 	color:white;
 }
