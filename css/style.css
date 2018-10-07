@@ -38,6 +38,219 @@ body{
 	padding:0;
 }
 
+.popup_app_request{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.6);
+	z-index:99999;
+}
+
+.popup_app_request .popup_form{
+	width:500px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 30px 20px;
+    border-radius: 10px;
+    background:white;	
+}
+
+.popup_app_request .popup_form button:first-child{
+	width:345px;
+	height:55px;
+	display: block;
+    margin: 0 auto;
+	margin-top:50px;
+	position:relative;
+	background-color:transparent;
+	border:2px solid #2f638d;
+	border-radius:6px;
+	text-align:center;
+	font-size:30px;
+	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-weight:600;
+	color:#2f638d;
+}
+
+.popup_app_request .popup_form > button::after{
+	content: url(../img/Icon_app_blue.png);
+	position:absolute;
+	width:36px;
+	height:36px;
+	left:150px;
+	top:-22px;
+}
+
+.popup_app_request .popup_form form{
+	margin:0 auto;
+	margin-top:50px;
+	width:350px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.popup_app_request .popup_form form input{
+	height:35px;
+	width:100%;
+	margin-bottom:25px;
+	border-radius:6px;
+	padding-left:10px;
+	color:#2f638d;
+}
+
+.popup_app_request .popup_form form input::placeholder{
+	font-style:italic;
+	color:#2f638d;
+}
+
+.popup_app_request .popup_form form button{
+	background-color:#c0392b;
+	width:190px;
+	height:50px;
+	border-radius:6px;
+	border:none;
+	color:white;
+	margin-top:15px;
+	font-size:18px;
+	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-weight:400;
+}
+
+.popup_app_request .popup_form .close{
+	background: #c0392b;
+    color: #FFFFFF;
+    line-height: 40px;
+    position: absolute;
+    right: -30px;
+    text-align: center;
+    top: -30px;
+    width: 40px;
+    text-decoration: none;
+    font-size: 60px;
+	transform:rotate(45deg);
+    border-radius: 20px;
+	border:2px solid white;
+}
+
+.popup_app_request_open{
+	display:block;
+}
+
+.popup_feedback{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.6);
+	z-index:99999;
+}
+
+.popup_feedback .popup_form{
+	width:500px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 30px 20px;
+    border-radius: 10px;
+    background:white;	
+}
+
+.popup_feedback .popup_form button:first-child{
+	width:345px;
+	height:55px;
+	display: block;
+    margin: 0 auto;
+	margin-top:50px;
+	position:relative;
+	background-color:transparent;
+	border:2px solid #2f638d;
+	border-radius:6px;
+	text-align:center;
+	font-size:30px;
+	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-weight:600;
+	color:#2f638d;
+}
+
+.popup_feedback .popup_form > button::after{
+	content: url(../img/Icon_app_blue.png);
+	position:absolute;
+	width:36px;
+	height:36px;
+	left:150px;
+	top:-22px;
+}
+
+.popup_feedback .popup_form form{
+	margin:0 auto;
+	margin-top:50px;
+	width:350px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.popup_feedback .popup_form form input{
+	height:35px;
+	width:95%;
+	margin-bottom:25px;
+	border-radius:6px;
+	padding-left:10px;
+	color:#2f638d;
+}
+
+.popup_feedback .popup_form form input::placeholder{
+	font-style:italic;
+	color:#2f638d;
+}
+
+.popup_feedback .popup_form form textarea{
+	width:97%;
+	border-radius:6px;
+	color:#2f638d;
+}
+
+.popup_feedback .popup_form form textarea::placeholder{
+	font-style:italic;
+	color:#2f638d;
+}
+
+.popup_feedback .popup_form form button{
+	background-color:#c0392b;
+	width:190px;
+	height:50px;
+	border-radius:6px;
+	border:none;
+	color:white;
+	margin-top:75px;
+	font-size:18px;
+	font-family:"HelveticaNeueCyr", "Arial", sans-serif;
+	font-weight:400;
+}
+
+.popup_feedback .popup_form .close{
+	background: #c0392b;
+    color: #FFFFFF;
+    line-height: 40px;
+    position: absolute;
+    right: -30px;
+    text-align: center;
+    top: -30px;
+    width: 40px;
+    text-decoration: none;
+    font-size: 60px;
+	transform:rotate(45deg);
+    border-radius: 20px;
+	border:2px solid white;
+}
+
+.popup_feedback_open{
+	display:block;
+}
+
 .container{
 	width:100%;
 	max-width:1400px;
@@ -170,6 +383,10 @@ body{
 	background-color:#c0392b;
 	color:white;
 	font-size:18px;
+}
+
+.slider .btn_app_request:hover{
+	background-color:#bf4c40;
 }
 
 .service_button_top{
@@ -639,6 +856,10 @@ body{
 	margin-top: 70px;
 	margin-left:150px;
 	font-size:18px;
+}
+
+.rewiev_block_1 .feedback_btn:hover{
+	background-color:#356e9c;
 }
 
 .arrow{

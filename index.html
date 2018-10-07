@@ -9,6 +9,29 @@
 		<link rel="icon" href="img/Favicon.ico" type="image/x-icon">
 	</head>
 	<body>
+		<div class="popup_app_request">
+			<div class="popup_form">
+				<button>Оставить заявку</button>
+				<form action="" method="post">
+					<input type="text" name="clientName" placeholder="Имя*">
+					<input type="text" name="clientTelephoneNumber" placeholder="Ваш телефон*">
+					<input type="text" name="orderDescription" placeholder="Что нужно сделать"><br>
+					<button>Отправить</button>
+				</form>
+				<a href="#close" title="Закрыть" class="close">+</a>
+			</div>
+		</div>
+		<div class="popup_feedback">
+			<div class="popup_form">
+				<button>Оставить отзыв</button>
+				<form action="" method="post">
+					<input type="text" name="clientName" placeholder="Имя*"><br>
+					<textarea name="comment" cols="40" rows="3" placeholder="Ваш отзыв"></textarea>
+					<button>Отправить</button>
+				</form>
+				<a href="#close" title="Закрыть" class="close">+</a>
+			</div>
+		</div>
 		<div class="container">
 			<div class="header">				
 				<div class="header_menu">
@@ -36,7 +59,7 @@
 						<li>качественно</li>
 						<li>надежно</li>
 					  </ul>
-					  <button>Оставить заявку</button>
+					  <button class="btn_app_request">Оставить заявку</button>
 					</div>		
 		    </div>
 			<a name="service"></a>
@@ -184,7 +207,7 @@
 						<div class="radio_btn radio_btn_2"></div>
 						<div class="radio_btn radio_btn_3"></div>
 					</div>
-					<button>Оставить отзыв</button>
+					<button class="feedback_btn">Оставить отзыв</button>
 				</div>
 				<div class="rewiev_block_2">
 					<img class="quote" src="img/Icon_quote.png" alt="Quote">
